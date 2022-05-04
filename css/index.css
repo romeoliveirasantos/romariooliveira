@@ -1,3 +1,6 @@
+body{
+  background-color: #242424;
+}
 header{
   display: inline-flex;
   justify-content: space-between;
@@ -91,6 +94,19 @@ header{
   border: 2px solid #fff;
   border-radius: 9px;
   cursor: pointer;
+}
+main{
+  display: inline;
+  text-align: center;
+  width: 100%;
+  
+}
+.imgBackground{
+ width: 100%;
+}
+section{
+  display: flex;
+  position: absolute;
 }
 
 
