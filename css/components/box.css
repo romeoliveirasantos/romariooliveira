@@ -1,0 +1,11 @@
+#box{
+  background-color: #3A4042;
+  width: 627px;
+  height: 184px;
+  box-shadow: 10px 10px 0 #000;
+  text-align: center;
+}
+
+#box h2{
+  padding: 29px;
+}
