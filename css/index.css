@@ -53,48 +53,6 @@ header{
   cursor: pointer;
 }
 
-.buttonCV{
-  display: inline-flex;
-  text-decoration: none;
-  font-family: 'fira Code';
-  text-align: center;
-  align-items: center;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 500;
-  margin-right: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  cursor: pointer;
-  background-color: #7C5E99;
-  width: 170px;
-  height: 60px;
-  border: 2px solid #000; 
-  border-radius: 9px;
-  cursor: pointer;
-}
-
-.buttonCV:hover{
-  display: inline-flex;
-  text-decoration: none;
-  font-family: 'fira Code', monospace;
-  align-items: center;
-  font-size: 22px;
-  color: #fff;
-  font-weight: 500;
-  text-align: center;
-  margin-right: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-  background-color: #7C5E99;
-  width: 170px;
-  height: 60px;
-  box-shadow: 8px 8px 10px #000; 
-  border: 2px solid #fff;
-  border-radius: 9px;
-  cursor: pointer;
-}
 
 
 
