@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="assets/img/icon.svg">
+  <link rel="icon" type="image/x-icon" href="assets/img/icon2.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -18,30 +18,42 @@
   <link rel="stylesheet" href="css/components/header.css">
   <link rel="stylesheet" href="css/components/logo.css">
   <link rel="stylesheet" href="css/components/banner.css">
+  <link rel="stylesheet" href="css/components/skills.css">
+  <link rel="stylesheet" href="css/components/habilityComponents.css">
   <title>Romário Oliveira</title>
 </head>
 <body>
   <header class="header">
-    <div class="logo"><a href=""><img src="assets/img/logo.svg" alt="Logo"></a></div>
+    <div class="logo"><a href="#logo"><img src="assets/img/logo.svg" alt="Logo"></a></div>
       <nav>
-          <a class="navItens" href="" lang="en" class="navItens">Skills</a>
+          <a class="navItens" href="#Skills" lang="en" class="navItens">Skills</a>
           <a class="navItens" href="">Projetos</a>
           <a class="navItens" href="">Sobre</a>
           <a class="navItens" href="">Contato</a>
           <a href="" class="button">Download CV</a>
       </nav>
   </header>
-  <section class="banner">
+  <section class="banner" id="logo">
     <div class="wrapper">
       <div class="box">
         <h1 class="nameTitle">Romário Oliveira</h1>
         <h2 class="nameSubtitle">FrontEnd Developer</h2>
       </div>
-      <div class="buttonBox">
-        <a href="" class="button">Download CV</a>
-        <a href="" class="button">Contato</a>
-      </div>
+        <div class="buttonBox">
+          <a href="" class="button">Download CV</a>
+          <a href="" class="button">Contato</a>
+        </div>
       </div>  
       </section>
+    <section id="Skills" class="skills">
+      <h1 class="tituloSkills">Skills</h1>
+      <div id="htmlSkill" class="habilityComponent">
+        <div class="containerHTML">
+          <h2 class="html">HTML</h2>
+          <div class="skillBar"><img class="bar" src="assets/img/procress.svg" alt=""></div>
+          <img class="logoHTML"  src="assets/img/ico_html5.svg" alt="">
+        </div>
+    </div>
+    </section>
 </body>
 </html>
