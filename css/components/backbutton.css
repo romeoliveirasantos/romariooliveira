@@ -16,5 +16,6 @@
   padding-bottom: 20px;
 }
 .buttonBack:hover{
-  transform: scale(1.2);
+  animation: reverse 3s infinite;
+  transform: rotate(180deg);
 }
