@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,8 @@
   <link rel="icon" type="image/x-icon" href="assets/img/icon2.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/components/title.css">
@@ -19,18 +21,20 @@
   <link rel="stylesheet" href="css/components/logo.css">
   <link rel="stylesheet" href="css/components/banner.css">
   <link rel="stylesheet" href="css/components/sectionSkills.css">
+  <link rel="stylesheet" href="css/components/sectionProjects.css">
   <title>Romário Oliveira</title>
 </head>
+
 <body>
   <header class="header">
     <div class="logo"><a href="#logo"><img src="assets/img/logo.svg" alt="Logo"></a></div>
-      <nav>
-          <a class="navItens" href="#Skills" lang="en" class="navItens">Skills</a>
-          <a class="navItens" href="">Projetos</a>
-          <a class="navItens" href="">Sobre</a>
-          <a class="navItens" href="">Contato</a>
-          <a href="" class="button">Download CV</a>
-      </nav>
+    <nav>
+      <a class="navItens" href="#Skills" lang="en" class="navItens">Skills</a>
+      <a class="navItens" href="#projetos">Projetos</a>
+      <a class="navItens" href="">Sobre</a>
+      <a class="navItens" href="">Contato</a>
+      <a href="" class="button">Download CV</a>
+    </nav>
   </header>
   <section class="banner" id="logo">
     <div class="wrapper">
@@ -38,65 +42,74 @@
         <h1 class="nameTitle">Romário Oliveira</h1>
         <h2 class="nameSubtitle">FrontEnd Developer</h2>
       </div>
-        <div class="buttonBox">
-          <a href="" class="button">Download CV</a>
-          <a href="" class="button">Contato</a>
-        </div>
-      </div>  
-      </section>
-      <section class="Skills" id="Skills">
-        <h1 class="SkillsTitle">Skills</h1>
-        <div class="containerItens">
-          <section class="SkillItens">
-          <div class="boxitens">
-            <img src="assets/img/ico_html5.svg" alt="">
-            <div class="componentSkill">
+      <div class="buttonBox">
+        <a href="" class="button">Download CV</a>
+        <a href="" class="button">Contato</a>
+      </div>
+    </div>
+  </section>
+  <section class="Skills" id="Skills">
+    <h1 class="SkillsTitle">Skills</h1>
+    <div class="containerItens">
+      <section class="SkillItens">
+        <div class="boxitens">
+          <img src="assets/img/ico_html5.svg" alt="">
+          <div class="componentSkill">
             <h2 class="nameSubtitle">HTML</h2>
             <div class="bar"></div>
           </div>
-          </div>
-          <div class="boxitens">
-            <img src="assets/img/ico_css3.svg" alt="">
-            <div class="componentSkill">
+        </div>
+        <div class="boxitens">
+          <img src="assets/img/ico_css3.svg" alt="">
+          <div class="componentSkill">
             <h2 class="nameSubtitle">CSS</h2>
             <div class="barCSS"></div>
           </div>
-          </div>
-          <div class="boxitens">
-            <img src="assets/img/ico_js.svg" alt="">
-            <div class="componentSkill">
+        </div>
+        <div class="boxitens">
+          <img src="assets/img/ico_js.svg" alt="">
+          <div class="componentSkill">
             <h2 class="nameSubtitle">JavaScript</h2>
             <div class="barJS"></div>
           </div>
-          </div>
-          
-          
-        </section>
-        <section class="SkillItens">
-          <div class="boxitens">
-            <img src="assets/img/ico_react.svg" alt="">
-            <div class="componentSkill">
+        </div>
+      </section>
+      <section class="SkillItens">
+        <div class="boxitens">
+          <img src="assets/img/ico_react.svg" alt="">
+          <div class="componentSkill">
             <h2 class="nameSubtitle">React</h2>
             <div class="barREACT"></div>
           </div>
-          </div>
-          <div class="boxitens">
-            <img src="assets/img/ico_nodejs.svg" alt="">
-            <div class="componentSkill">
+        </div>
+        <div class="boxitens">
+          <img src="assets/img/ico_nodejs.svg" alt="">
+          <div class="componentSkill">
             <h2 class="nameSubtitle">NodeJS</h2>
             <div class="barNODE"></div>
           </div>
-          </div>
-          <div class="boxitens">
-            <img src="assets/img/ico_restapi.svg" alt="">
-            <div class="componentSkill">
+        </div>
+        <div class="boxitens">
+          <img src="assets/img/ico_restapi.svg" alt="">
+          <div class="componentSkill">
             <h2 class="nameSubtitle">Rest Api</h2>
             <div class="barAPI"></div>
           </div>
-          </div>
         </div>
-      </section>
-      </section>
-     
+    </div>
+  </section>
+  </section>
+  <section class="projetos" id="projetos">
+    <h2 class="nameSubtitle" id="titleProjetos">Projetos</h2>
+    <div class="projetosItens">
+      <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt=""></a>
+      <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt=""></a>
+      <a href=""><img class="portfolio" src="assets/img/portfolio 1.svg" alt=""></a>
+    </div>
+  </section>
+  <section class="carrosel">
+
+  </section>
 </body>
+
 </html>
