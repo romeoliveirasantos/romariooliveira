@@ -8,8 +8,7 @@
   <link rel="icon" type="image/x-icon" href="assets/img/icon2.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/components/title.css">
@@ -40,6 +39,7 @@
       <a href="" class="button">Download CV</a>
     </nav>
   </header>
+
   <main>
     <section class="banner" id="logo">
       <div class="wrapper">
@@ -54,6 +54,7 @@
       </div>
     </section>
   </main>
+
   <section class="Skills" id="Skills">
     <h1 class="SkillsTitle">Skills</h1>
     <div class="containerItens">
@@ -105,6 +106,7 @@
     </div>
   </section>
   </section>
+
   <section class="projetos" id="projetos">
     <h2 class="nameSubtitle" id="titleProjetos">Projetos</h2>
     <div class="projetosItens">
@@ -114,16 +116,36 @@
           src="assets/img/portfolio.svg" alt="Imagem Portfólio"></a>
     </div>
   </section>
+
   <section class="carrosel" id="sobre">
     <h2 class="nameSubtitle" id="titleSobre">Sobre</h2>
   </section>
+
   <section class="contato" id="contato">
     <h2 class="nameSubtitle" id="titleContato">Contato</h2>
+    
+      <form action="" class="FORMcontainer">
+
+      <label for="name" class="label">Nome</label>
+      <input type="text" name="name" id="name" class="input" required autocomplete="off">
+
+      <label for="email" class="label">E-mail</label>
+      <input type="email" name="email" id="email" class="input" required>
+
+      <label for="message" class="label">Mensagem</label>
+      <textarea name="message" class="boxMessage" id="message" cols="20" rows="10" lang="pt-BR" spellcheck="true"></textarea>
+
+      <input type="submit" value="Enviar" class="buttonContato">
+
+      </form>
+   
   </section>
+
   <section class="back">
     <a href="#logo"><img class="buttonBack" src="assets/img/backtotop.png" alt="Miniatura do botão para o topo"></a>
     <h2 id="tituloBack">Voltar ao topo</h2>
   </section>
+
   <footer class="footer">
     <div class="footerContainer">
       <h2 class="nameSubtitle" id="footerTitle">Made with</h2><img class="footerimg" src="assets/img/footerhearth.png"

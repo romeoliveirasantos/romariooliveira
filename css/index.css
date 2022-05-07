@@ -1,6 +1,13 @@
 body{
   background-color: #242424;
 }
+:root {
+  --branco: #ffffff;
+  --cinza: #828282;
+  --roxo: #7C5E99;
+  --amarelo: #FFC857;
+  --preto: #000;
+}
 
 
 
