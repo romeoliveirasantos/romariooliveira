@@ -1,0 +1,20 @@
+.back{
+  display: block;
+  text-align: center;
+}
+
+.buttonBack{
+  width: 100px;
+  height: 100px;
+  
+}
+#tituloBack{
+  font-size: 15px;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.buttonBack:hover{
+  transform: scale(1.2);
+}

@@ -1,0 +1,25 @@
+.footer{
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+.footerTitle{
+  display: flex;
+  justify-content: center;
+}
+.footerContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footerimg{
+  width: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.footerimg:hover{
+  transform: scale(1.1);
+}
