@@ -20,10 +20,12 @@
 }
 .progress1:hover{
   transform: scale(1.1);
-  box-shadow: 3px 3px 7px #fff;
+  border: 2px solid #FFC857;
+  box-shadow: 3px 3px 10px #FFC857;
 }
 .portfolio:hover{
   transform: scale(1.1);
-  
+  border: 2px solid #FFC857;
+  box-shadow: 3px 3px 10px #FFC857;
 }
 
