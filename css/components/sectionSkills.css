@@ -22,212 +22,26 @@
   color: #FFC857;
   padding: 29px;
 }
-
-.containerItens{
+.skill-tec{
   display: flex;
-  justify-content: space-evenly;
-  
+  font-size: 30px;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #fff;
+  padding: 29px;
 }
-
-.boxitens{
+.skill-tec:hover{
+  font-size: 30px;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #FFC857;
+  padding: 29px;
+}
+.skill-tec .icon{
+  margin-right: 25px;
+}
+.skill-tec .right{
   display: flex;
-  padding-bottom: 40px;
-}
-.boxitens:hover{
-  transform: scale(1.3);
-}
-.componentSkill{
-  display: block;
-  padding-bottom: 50px;
-  
-}
-
-.CSS{
-  display: block;
-  padding-bottom: 40px;
-}
-.JS{
-  padding-bottom: 40px;
-}
-.REACT{
-  padding-bottom: 40px;
-}
-.NODE{
-  padding-bottom: 60px;
-}
-.RESTAPI{
-  padding-bottom: 40px;
-}
-.bar{
-  margin-left: 20px;
-  border: 1px solid #000;
-  text-align: center;
-  line-height: 20px;
-  width: 200px;
-  height: 20px;
-  background: url(../../assets/img/progressbar.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 40px 20px;
-}
-.bar::before{
-  content: '40%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #FFC857;
-  visibility: hidden;
-}
-.bar:hover:before{
-  content: '40%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #000;
-  visibility: visible;
-}
-
-.barCSS{
-  margin-left: 20px;
-  border: 1px solid #000;
-  text-align: center;
-  line-height: 20px;
-  width: 200px;
-  height: 20px;
-  background: url(../../assets/img/progressbar.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 30px 20px;
-}
-.barCSS::before{
-  content: '30%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #FFC857;
-  visibility: hidden;
-}
-.barCSS:hover:before{
-  content: '30%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #000;
-  visibility: visible;
-}
-
-.barJS{
-  margin-left: 20px;
-  border: 1px solid #000;
-  text-align: center;
-  line-height: 20px;
-  width: 200px;
-  height: 20px;
-  background: url(../../assets/img/progressbar.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 10px 20px;
-}
-.barJS::before{
-  content: '10%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #FFC857;
-  visibility: hidden;
-}
-.barJS:hover:before{
-  content: '10%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #000;
-  visibility: visible;
-}
-
-.barREACT{
-  margin-left: 20px;
-  border: 1px solid #000;
-  text-align: center;
-  line-height: 20px;
-  width: 200px;
-  height: 20px;
-  background: url(../../assets/img/progressbar.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 0px 20px;
-}
-.barREACT::before{
-  content: '0%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #FFC857;
-  visibility: hidden;
-}
-.barREACT:hover:before{
-  content: '0%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #000;
-  visibility: visible;
-}
-
-.barNODE{
-  margin-left: 20px;
-  border: 1px solid #000;
-  text-align: center;
-  line-height: 20px;
-  width: 200px;
-  height: 20px;
-  background: url(../../assets/img/progressbar.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 0px 20px;
-}
-.barNODE::before{
-  content: '0%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #FFC857;
-  visibility: hidden;
-}
-.barNODE:hover:before{
-  content: '0%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #000;
-  visibility: visible;
-}
-
-.barAPI{
-  margin-left: 20px;
-  border: 1px solid #000;
-  text-align: center;
-  line-height: 20px;
-  width: 200px;
-  height: 20px;
-  background: url(../../assets/img/progressbar.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 0px 20px;
-}
-.barAPI::before{
-  content: '0%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #FFC857;
-  visibility: hidden;
-}
-.barAPI:hover:before{
-  content: '0%';
-  font-size: 10px;
-  text-align: center;
-  font-family: 'Press Start 2p', monospace;
-  color: #000;
-  visibility: visible;
+  flex-direction: column;
+  justify-content: space-around;
 }
