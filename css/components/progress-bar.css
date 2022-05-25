@@ -9,3 +9,7 @@
 .progress-bar::-moz-progress-bar{
   background-color: var(--roxo);
 }
+
+.title{
+  padding-bottom: 10px;
+}
