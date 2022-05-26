@@ -1,4 +1,4 @@
-.box{
+.banner-box{
   background-color: #3A4042;
   width: 627px;
   height: 184px;
@@ -7,7 +7,7 @@
   border: 1px solid #000;
 }
 
-.box:hover{
+.banner-box:hover{
   transform: scale(1.1);
   background-color: #3A4042;
   width: 627px;

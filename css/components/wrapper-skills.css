@@ -1,4 +1,4 @@
-.wrapperSkills{
+.wrapper-skills{
   display: flex;
   flex-wrap: wrap;
   max-width: 1060px;
@@ -6,10 +6,10 @@
   margin-right: auto;
 }
 
-.wrapperSkills .progress-bar{
+.wrapper-skills .progress-bar{
   width: 320px;
 }
 
-.wrapperSkills .skill-tec:nth-child(odd){
+.wrapper-skills .skill-tec:nth-child(odd){
   margin-right: 40px;
 }
