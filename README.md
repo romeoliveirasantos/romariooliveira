@@ -13,8 +13,8 @@ HTML
 
 CSS
 
-1 - Root e variáveis globais.
-2 - Google fonts e estilização de texto.
+1 - Root|Variáveis globais.
+2 - Fonts e estilização de texto.
 3 - Classes, Ids e pseudo-classes e pseudo-elementos.
 4 - Manipulação de elementos e posicionamento.
 5 - Display.
