@@ -16,39 +16,7 @@
   flex-direction: column;
   align-items: center;
 }
-
-
-.label{
-  width: 50%;
-  font-family: 'Fira Code', monospace;
-  font-weight: 300;
-  font-size: 30px;
-  padding-top: 30px;
-  margin-bottom: 5px;
-  color: #FFF;
-}
-.label:hover{
-  color: var(--amarelo);
-}
-.input{
-  width: 50%;
-  height: 30px;
-  border: 5px solid #000;
-  font-family: 'Fira Code', monospace;
-  font-size: 40px;
-  color: var(--preto);
-}
-.boxMessage{
-  width: 50%;
-  resize: none;
-  margin-top: 10px;
-  border: 2px solid #000;
-  font-family: 'Fira Code', monospace;
-  font-size: 20px;
-  color: var(--preto);
-}
-
-.buttonContato{
+.buttoncontato{  
   width: 50%;
   margin-top: 40px;
   height: 60px;
@@ -56,8 +24,9 @@
   font-family: 'Fira Code',monospace;
   color: var(--branco);
   border: 5px solid #000;
+  
 }
-.buttonContato:hover{
+.buttoncontato:hover{
   font-size: 25px;
   color: var(--amarelo);
   border: 5px solid #FFF;

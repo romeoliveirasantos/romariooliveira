@@ -1,0 +1,10 @@
+.boxMessage{
+    width: 50%;
+    resize: none;
+    margin-top: 10px;
+    border: 2px solid #000;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    color: var(--preto);
+    outline: none;
+  }

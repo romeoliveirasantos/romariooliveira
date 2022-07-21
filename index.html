@@ -28,6 +28,14 @@
   <link rel="stylesheet" href="css/components/Footer.css">
   <link rel="stylesheet" href="css/components/progress-bar.css">
   <link rel="stylesheet" href="css/components/wrapper-skills.css">
+  <link rel="stylesheet" href="css/components/main-description.css">
+  <link rel="stylesheet" href="css/components/button-arrow.css">
+  <link rel="stylesheet" href="css/components/node-card.css">
+  <link rel="stylesheet" href="css/components/main-carousel.css">
+  <link rel="stylesheet" href="css/components/main-label.css">
+  <link rel="stylesheet" href="css/components/main-input.css">
+  <link rel="stylesheet" href="css/components/main-boxmessage.css">
+  <script src="js/components/main-carousel.js" defer></script>
   <title>Romário Oliveira</title>
 </head>
 
@@ -150,22 +158,79 @@
 
   <section class="carrosel" id="sobre">
     <h2 class="nameSubtitle" id="titleSobre">Sobre</h2>
+
+    <p class="main-description">Iniciei minha carreira profissional em <span class="date-main-description">2012</span>
+      na área da edição de fotos e vídeos, em <span class="date-main-description">2014</span> passei a trabalhar focado
+      no nicho de criação de conteúdo para plataformas como: Youtube e Twitch, em <span
+        class="date-main-description">2016</span> passei a trabalhar com Motion Design e criação de layouts e midia
+      kit.<br>Em <span class="date-main-description">2021</span> migrei para a área da tecnologia, minha primeira
+      experiência na área foi na equipe de analistas de suporte da Direct One, uma empresa de comunicações digitais,
+      onde fiquei até abril de <span class="date-main-description">2022</span>, Hoje faço parte da equipe de analistas
+      de suporte da Zenvia no setor de monitoração e processamento.</p>
+
+    <div class="carousel-container">
+      <div class="main-carousel">
+        <button class="button-arrow -right"></button>
+
+        <div class="items">
+          <div class="elements">
+            <figure class="node-card">
+              <figcaption class="title"><span class="date-carousel">2012</span></figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-videoedit.png" alt="Logo Romário Oliveira">
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title"><span class="date-carousel">2014</span></figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-createcontent.png" alt="Logo Romário Oliveira">
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title"><span class="date-carousel">2016</span></figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-motionDesign.png" alt="Logo Romário Oliveira">
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title"><span class="date-carousel">2021</span></figcaption>
+              <div class="logo">
+                <img src="assets/img/d1-logo.png" alt="Logo Romário Oliveira">
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title"><span class="date-carousel">2022</span></figcaption>
+              <div class="logo">
+                <img src="assets/img/zenvia-logo.png" alt="Logo Romário Oliveira">
+              </div>
+            </figure>
+          </div>
+        </div>
+        <button class="button-arrow -left"></button>
+      </div>
+    </div>
+    </div>
   </section>
 
   <section class="contato" id="contato">
     <h2 class="nameSubtitle" id="titleContato">Contato</h2>
     <form action="" class="FORMcontainer">
-      <label for="name" class="label">Nome</label>
-      <input type="text" name="name" id="name" class="input" required autocomplete="off">
 
-      <label for="email" class="label">E-mail</label>
-      <input type="email" name="email" id="email" class="input" required>
+      <label for="name" class="main-label">Nome</label>
+      <input type="text" name="name" id="name" class="main-input" required autocomplete="off">
 
-      <label for="message" class="label">Mensagem</label>
+      <label for="email" class="main-label">E-mail</label>
+      <input type="email" name="email" id="email" class="main-input" required>
+
+      <label for="message" class="main-label">Mensagem</label>
       <textarea name="message" class="boxMessage" id="message" cols="20" rows="10" lang="pt-BR"
         spellcheck="true"></textarea>
 
-      <input type="submit" value="Enviar" class="buttonContato">
+      <input type="submit" value="Enviar" class="buttoncontato">
     </form>
   </section>
 
