@@ -39,6 +39,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  height: 100%;
   gap: 100px; 
   transition: transform 200ms ease-in-out;
  }
