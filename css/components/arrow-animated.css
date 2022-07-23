@@ -1,0 +1,41 @@
+.arrow-animated{
+    display: inline-flex;
+    position: absolute;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    cursor: pointer;
+    
+
+}
+.arrow-animated-right{
+    transform: rotateY(180deg);
+    margin-right: 20px;
+}
+.arrow-animated-left{
+    margin-left: 20px;
+}
+
+.button-projeto-left{
+    display: block;
+    width: 60px;
+    height: 95px;
+    margin-left: 1.5%;
+    background-color: transparent;
+    border: none;
+    background-image: url(../../assets/img/arrow-animated.gif);
+    background-repeat: no-repeat;
+    background-position: -12px;
+    cursor: pointer;
+}
+.button-projeto-right{
+    display: block;
+    width: 60px;
+    height: 95px;
+    margin-right: 1.5%;
+    background-color: transparent;
+    border: none;
+    background-image: url(../../assets/img/arrow-animatedRight.gif);
+    background-position: 60px ;
+    cursor: pointer;
+}

@@ -10,6 +10,21 @@
 #titleSobre{
   display: flex;
   justify-content: center;
+  display: block;
+  text-align: center;
+  font-size: clamp(1.5rem, 2.5vw, 2.8rem);
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #fff;
+  padding: 29px;
+}
+
+#titleSobre:hover{
+  font-size: 30px;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #FFC857;
+  padding: 29px;
 }
 
 .carrosel-container{

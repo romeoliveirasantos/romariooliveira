@@ -10,22 +10,69 @@
 #titleProjetos{
   display: flex;
   justify-content: center;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  font-size: clamp(1.5rem, 2.5vw, 2.8rem);
+  color: #fff;
+  padding: 29px;
+}
+#titleProjetos:hover{
+  font-size: 30px;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #FFC857;
+  padding: 29px;
 }
 
 .projetosItens{
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 80px;
+  height: 100%;
+  padding-bottom: 20%;
+  overflow: hidden;
+  gap: 5px; 
+}
+.elementos-projeto{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px; 
+  transition: transform 200ms ease-in-out;
+ }
+.projeto-hover:hover::after{
+  content: 'In-Progress';
+  display: block;
+  color: var(--amarelo);
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Press Start 2p',monospace;
+}
+.projeto-hover.-portfolio:hover::after{
+  content: 'Portfólio';
+  display: block;
+  color: var(--amarelo);
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Press Start 2p',monospace;
+}
+
+.progress{
+  width: 50%;
+  height: 20%;
 }
 .progress1:hover{
-  transform: scale(1.1);
-  border: 2px solid #FFC857;
-  box-shadow: 3px 3px 10px #FFC857;
+  transform: scale(1.0);
+  border: 1px solid #FFC857;
+  box-shadow: 1px 3px 10px #FFC857;
 }
 .portfolio:hover{
-  transform: scale(1.1);
+  transform: scale(1.0);
   border: 2px solid #FFC857;
-  box-shadow: 3px 3px 10px #FFC857;
+  box-shadow: 1px 3px 10px #FFC857;
 }
 

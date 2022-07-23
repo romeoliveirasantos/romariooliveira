@@ -1,13 +1,13 @@
 .Skills{
   background-color: #828282;
   width: 100%;
-  border-bottom: 10px solid #7C5E99;
+  border-bottom: 10px solid var(--roxo);
 }
 
 .SkillsTitle{
   display: block;
   text-align: center;
-  font-size: 30px;
+  font-size: clamp(1.5rem, 2.5vw, 2.8rem);
   font-family: 'Press Start 2p', monospace;
   text-shadow: 4px 4px 0 #000;
   color: #fff;
@@ -24,16 +24,14 @@
 .skill-tec{
   display: flex;
   align-items: center;
-  font-size: 30px;
+  font-size: clamp(0.7rem, 2.5vw, 1.8rem);
   font-family: 'Press Start 2p', monospace;
-  text-shadow: 4px 4px 0 #000;
   color: #fff;
   padding: 29px;
 }
 .skill-tec:hover{
-  font-size: 30px;
+  font-size: clamp(1.7rem, 2.5vw, 1.8rem);
   font-family: 'Press Start 2p', monospace;
-  text-shadow: 4px 4px 0 #000;
   color: #FFC857;
   padding: 29px;
 }

@@ -24,7 +24,7 @@
     
 }
 
-.button-arrow:hover{
+.button-arrow:active{
     box-shadow: 5px 5px 10px var(--amarelo);
     transform: scale(1.1);
 }

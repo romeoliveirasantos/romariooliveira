@@ -1,13 +1,68 @@
 .progress-bar{
-  
   box-sizing: border-box;
   background-color: var(--branco);
-  border: 5px solid var(--preto);
-  height: 40px;
+  border: 3px solid var(--preto);
+  height: 30px;
 }
-.progress-bar::-webkit-progress-bar,
-.progress-bar::-moz-progress-bar{
-  background-color: var(--roxo);
+
+.progress-bar.-html{
+  background-image: url(../../assets/img/roxo.png);
+  background-repeat: no-repeat;
+  background-position: 108% 10%;
+}
+.progress-bar.-css{
+  background-image: url(../../assets/img/roxo.png);
+  background-repeat: no-repeat;
+  background-position: 120% 10%;
+}
+.progress-bar.-JS{
+  background-image: url(../../assets/img/roxo.png);
+  background-repeat: no-repeat;
+  background-position: 138% 10%;
+}
+.progress-bar::before{
+  content: '';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+  margin-left: 40%;
+  color: var(--preto);
+  box-shadow: none;
+  text-decoration: none;
+}
+.progress-bar:hover::before{
+  content: '';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-html:hover::before{
+  content: '80%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-NodeJS:hover::before{
+  content: '0%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-css:hover::before{
+  content: '50%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-restAPI:hover::before{
+  content: '0%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-JS:hover::before{
+  content: '10%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-react:hover::before{
+  content: '0%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-UX:hover::before{
+  content: '0%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
+}
+.progress-bar.-TDD:hover::before{
+  content: '0%';
+  font-size: clamp(1.7rem, 2.5vw, 1rem);
 }
 
 .title{

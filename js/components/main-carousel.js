@@ -13,4 +13,4 @@ btnLeft.addEventListener('click', function(){
 
     movPixels = movPixels - 100;
     elements.style = `transform: translateX(${movPixels}px)`;
-})
+});

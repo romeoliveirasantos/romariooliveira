@@ -8,6 +8,18 @@
 #titleContato{
   display: flex;
   justify-content: center;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  font-size: clamp(1.5rem, 2.5vw, 2.8rem);
+  color: #fff;
+  padding: 29px;
+}
+#titleContato:hover{
+  font-size: 30px;
+  font-family: 'Press Start 2p', monospace;
+  text-shadow: 4px 4px 0 #000;
+  color: #FFC857;
+  padding: 29px;
 }
 
 .FORMcontainer{

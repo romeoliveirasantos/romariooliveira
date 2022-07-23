@@ -30,3 +30,27 @@
   margin-right: 30px;
   cursor: pointer;
 }
+
+.button-nav{
+    text-decoration: none;
+    display: inline-flex;
+    background-color: #7C5E99;
+    line-height: 50px;
+    font-family: 'fira Code', monospace;
+    font-size: 100%;
+    padding: 0 20px;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer; 
+    border: 2px solid #000;
+    border-radius: 4px;
+    transition: transform 100ms cubc-bezier(.45,.90,.68,2.48);
+  }
+
+  .button-nav:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px var(--amarelo); 
+    border: 2px solid #fff;
+    color: var(--amarelo);
+  }

@@ -1,8 +1,8 @@
 .nameTitle{
+  font-size: clamp(1.0rem, 2.5vw, 2.8rem);
   font-family: 'Press Start 2p', monospace;
   color: #7C5E99;
   font-weight: 400;
-  font-size: 39px;
   padding-top: 39px;
   text-shadow: 4px 5px 0 #000;
 }
