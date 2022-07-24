@@ -7,3 +7,10 @@
     height: 60px;
     image-rendering: pixelated;
 }
+@media (min-width: 1010px){
+
+    .icon-menu{
+        display: none;
+    }
+
+}

@@ -21,7 +21,6 @@
 }
 .button-arrow.-right::before{
     transform:  translateX(7px);
-    
 }
 
 .button-arrow:active{

@@ -4,7 +4,12 @@
   border: 3px solid var(--preto);
   height: 30px;
 }
-
+@media (max-width: 600px){
+  
+  .progress-bar{
+    display: none;
+  }
+}
 .progress-bar.-html{
   background-image: url(../../assets/img/roxo.png);
   background-repeat: no-repeat;

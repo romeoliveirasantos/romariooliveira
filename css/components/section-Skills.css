@@ -1,3 +1,4 @@
+
 .Skills{
   background-color: #828282;
   width: 100%;
@@ -15,7 +16,6 @@
 }
 
 .SkillsTitle:hover{
-  font-size: 30px;
   font-family: 'Press Start 2p', monospace;
   text-shadow: 4px 4px 0 #000;
   color: #FFC857;
@@ -42,4 +42,71 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+@media (max-width: 600px){
+  h3.title#HTML:hover::after{
+    content: '80%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#nodeJS:hover::after{
+    content: '0%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#CSS:hover::after{
+    content: '50%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#restAPI:hover::after{
+    content: '0%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#JS:hover::after{
+    content: '10%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#react:hover::after{
+    content: '0%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#UX:hover::after{
+    content: '0%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  h3.title#TDD:hover::after{
+    content: '0%';
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+  }
+  .Skills{
+  height: 1400px;
+  }
+  .skill-tec{
+    display: flex;
+    margin-left: 30%;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .skill-tec:hover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 10px;
+  }
 }

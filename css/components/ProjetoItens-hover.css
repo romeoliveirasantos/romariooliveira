@@ -1,0 +1,72 @@
+.item1:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item2:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item3:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item4:hover::after{
+    content: 'Portfólio';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item5:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item6:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item7:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }
+  .item8:hover::after{
+    content: 'In-Progress';
+    display: flex;
+    justify-content: center;
+    color: var(--amarelo);
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Press Start 2p',monospace;
+  }

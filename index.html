@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/components/main-banner.css">
   <link rel="stylesheet" href="css/components/section-Skills.css">
   <link rel="stylesheet" href="css/components/section-Projects.css">
+  <link rel="stylesheet" href="css/components/ProjetoItens-hover.css">
   <link rel="stylesheet" href="css/components/arrow-animated.css">
   <link rel="stylesheet" href="css/components/section-Sobre.css">
   <link rel="stylesheet" href="css/components/section-Contato.css">
@@ -39,6 +40,7 @@
   <link rel="stylesheet" href="css/components/main-boxmessage.css">
   <script src="js/components/main-carousel.js" defer></script>
   <script src="js/components/arrow-animated.js" defer></script>
+  <script src="js/components/animated-carrossel.js" defer></script>
   <title>Romário Oliveira</title>
 </head>
 
@@ -81,7 +83,7 @@
         <img class="icon" src="assets/img/ico_html5.svg"
           alt="Logo HTML na cor laranja com borda preta e o número cinco no centro em pixel art">
         <div class="right">
-          <h3 class="title">HTML</h3>
+          <h3 class="title" id="HTML">HTML</h3>
           <img class="progressbar-img -html" src="" alt="">
           <progress class="progress-bar -html" id="html" max="" value=""></progress>
         </div>
@@ -91,7 +93,7 @@
         <img class="icon" src="assets/img/ico_nodejs.svg"
           alt="Logo NodeJS na cor verde e preto com borda preta e a sigla JS no centro em pixel art">
         <div class="right">
-          <h3 class="title">NodeJS</h3>
+          <h3 class="title" id="nodeJS">NodeJS</h3>
           <progress class="progress-bar -NodeJS" max="" value=""></progress>
         </div>
       </article>
@@ -100,7 +102,7 @@
         <img class="icon" src="assets/img/ico_css3.svg"
           alt="Logo CSS na cor Azul e branco com borda preta e o número três no centro em pixel art">
         <div class="right">
-          <h3 class="title">CSS</h3>
+          <h3 class="title" id="CSS">CSS</h3>
           <img class="progressbar-img -css" src="" alt="">
           <progress class="progress-bar -css" max="" value=""></progress>
         </div>
@@ -110,7 +112,7 @@
         <img class="icon" src="assets/img/ico_restapi.svg"
           alt="Logo Rest API na cor azul com borda preta, no formato de uma núvem em pixel art">
         <div class="right">
-          <h3 class="title">Rest API</h3>
+          <h3 class="title" id="restAPI">Rest API</h3>
           <progress class="progress-bar -restAPI" max="" value=""></progress>
         </div>
       </article>
@@ -119,7 +121,7 @@
         <img class="icon" src="assets/img/ico_js.svg"
           alt="Logo JavaScript na cor amarela com borda preta e a sigla JS no centro em pixel art">
         <div class="right">
-          <h3 class="title">JavaScript</h3>
+          <h3 class="title" id="JS">JavaScript</h3>
           <img class="progressbar-img -JS" src="" alt="">
           <progress class="progress-bar -JS" max="" value=""></progress>
         </div>
@@ -129,7 +131,7 @@
         <img class="icon" src="assets/img/ico_react.svg"
           alt="Logo React na cor azul escuro com borda preta em pixel art">
         <div class="right">
-          <h3 class="title">React</h3>
+          <h3 class="title" id="react">React</h3>
           <progress class="progress-bar -react" max="" value=""></progress>
         </div>
       </article>
@@ -138,7 +140,7 @@
         <img class="icon" src="assets/img/ico_ux.svg"
           alt="Logo UX na cor verde escuro e claro com borda preta em pixel art">
         <div class="right">
-          <h3 class="title">UX</h3>
+          <h3 class="title" id="UX">UX</h3>
           <progress class="progress-bar -UX" max="" value=""></progress>
         </div>
       </article>
@@ -147,7 +149,7 @@
         <img class="icon" src="assets/img/ico_tdd.svg"
           alt="Logo TDD nas cores vermelho, verde e verde musgo com borda preta em pixel art">
         <div class="right">
-          <h3 class="title">TDD</h3>
+          <h3 class="title" id="TDD">TDD</h3>
           <progress class="progress-bar -TDD" max="" value=""></progress>
         </div>
       </article>
@@ -155,57 +157,57 @@
     </div>
 
   </section>
+  <section class="projetos">
+    <div class="projetos" id="projetos">
 
-  <section class="projetos" id="projetos">
-    <h2 class="" id="titleProjetos">Projetos</h2>
-    
-    <div class="projetosItens">
-      <div class="elementos-projeto">
+      <h2 class="" id="titleProjetos">Projetos</h2>
 
-        <div class="projeto-hover">
-          <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
-        </div>
+      <div class="projeto-container">
 
-        <div class="projeto-hover">
-          <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
-        </div>
-        
-        <div class="projeto-hover">
-          <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
-        </div>
-        
-        <div class="projeto-hover -portfolio">
-          <a href="https://romeoliveirasantos.github.io/romariooliveira/" target="_blank"><img class="portfolio"src="assets/img/portfolio.svg" alt="Imagem Portfólio"></a>
-        </div>
-        <div class="projeto-hover">
-          <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
-        </div>
+        <div class="projetosItens">
+          <div class="projeto-hover">
 
-        <div class="projeto-hover">
-          <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
-        </div>
+            <div class="item1">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+            </div>
 
-        <div class="projeto-hover">
-          <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
-        </div>
+            <div class="item2">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+            </div>
 
-      <div class="projeto-hover">
-          <a href=""><img class="progress1" id="projeto-hover" src="assets/img/Inprogress.svg"alt="Imagem Projeto Um"></a>
+            <div class="item3">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+            </div>
+
+            <div class="item4">
+              <a href="https://romeoliveirasantos.github.io/romariooliveira/" target="_blank"><img class="portfolio"
+                  id="img" src="assets/img/portfolio.svg" alt="Imagem Portfólio"></a>
+            </div>
+
+            <div class="item5">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+            </div>
+
+            <div class="item6">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+            </div>
+
+            <div class="item7">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+            </div>
+
+            <div class="item8">
+              <a href=""><img class="progress1" id="img" src="assets/img/Inprogress.svg" alt="Imagem Projeto Um"></a>
+            </div>
+
+          </div>
+        </div>
       </div>
-
-      <div class="projeto-hover">
-        <a href=""><img class="progress1" src="assets/img/Inprogress.svg" alt="Imagem Projeto Dois"></a>
+      <div class="container-project-arrow">
+        <button class="animated-left"></button>
+        <button class="animated-right"></button>
       </div>
-
     </div>
-  
-      <div class="arrow-animated">
-        <button class="button-projeto-left"></button>
-        <button class="button-projeto-right"><img class="arrow-animated-right" src="" alt=""></button>
-      </div>
-      
-    </div>
-
   </section>
 
   <section class="carrosel" id="sobre">
