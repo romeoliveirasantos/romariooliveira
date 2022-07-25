@@ -13,7 +13,27 @@
 
 @media (max-width: 1010px){
   
-  .header > .menu{
-    display: none;
+  .header  .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    background-color: var(--amarelo);
+    width: 100%;
+    padding-top: 70px;
+  }
+  .header .button-nav{
+    justify-content: center;
+    width: 100%;
+  }
+  .header  a{
+    display: flex;
+  }
+}
+
+@media (min-width: 1010px){
+
+  .icon-menu{
+      display: none;
   }
 }
