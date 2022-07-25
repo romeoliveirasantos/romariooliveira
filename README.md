@@ -3,7 +3,7 @@
 <br><br>
 
 
-## HTML
+## HTML <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
           
 
 1 - Estrutura do HTML moderno.<br>
@@ -14,7 +14,7 @@
 6 - Inputs.<br>
 7 - Forms.
 <br><br>
-## CSS
+## CSS <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 1 - Root|Variáveis globais.<br>
 2 - Fonts e estilização de texto.<br>
