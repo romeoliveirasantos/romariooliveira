@@ -4,6 +4,7 @@
     font-size: 35px;
     position: absolute;
     right: 30px;
+    color: var(--roxo);
 
     transition: transform 100ms linear;
 }
