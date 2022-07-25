@@ -1,23 +1,27 @@
-Projeto para fixar as técnicas e conhecimentos adquiridos em HTML e CSS.
+### Projeto para fixar as técnicas e conhecimentos adquiridos em HTML e CSS.
+
+<br><br>
 
 
-HTML
+## HTML
+          
 
-1 - Estrutura do HTML moderno.
-2 - HTML semântico.
-3 - Elementos e classes.
-4 - Tags e seu uso.
-5 - Emmet e boas práticas.
-6 - Inputs.
+1 - Estrutura do HTML moderno.<br>
+2 - HTML semântico.<br>
+3 - Elementos e classes.<br>
+4 - Tags e seu uso.<br>
+5 - Emmet e boas práticas.<br>
+6 - Inputs.<br>
 7 - Forms.
+<br><br>
+## CSS
 
-CSS
-
-1 - Root|Variáveis globais.
-2 - Fonts e estilização de texto.
-3 - Classes, Ids e pseudo-classes e pseudo-elementos.
-4 - Manipulação de elementos e posicionamento.
-5 - Display.
-6 - Flex-box.
-7 - Transition e transform. 
-8 - Componentes e boas práticas.
+1 - Root|Variáveis globais.<br>
+2 - Fonts e estilização de texto.<br>
+3 - Classes, Ids e pseudo-classes e pseudo-elementos.<br>
+4 - Manipulação de elementos e posicionamento.<br>
+5 - Display.<br>
+6 - Flex-box.<br>
+7 - Transition e transform.<br> 
+8 - Componentes e boas práticas.<br>
+9 - Responsividade.
