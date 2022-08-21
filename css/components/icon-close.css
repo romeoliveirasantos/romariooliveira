@@ -5,10 +5,10 @@
     position: absolute;
     right: 30px;
     color: var(--roxo);
-
     transition: transform 100ms linear;
 }
 
 .icon-close:hover{
     transform: scale(1.1);
 }
+

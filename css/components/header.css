@@ -36,4 +36,7 @@
   .icon-menu{
       display: none;
   }
+  .icon-close{
+    display: none;
+  }
 }
