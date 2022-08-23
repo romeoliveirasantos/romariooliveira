@@ -13,8 +13,8 @@
 
 @media (max-width: 1010px){
   
-  .header  .menu{
-    display: flex;
+  .menu{
+    display: none;
     flex-direction: column;
     gap: 10px;
     position: fixed;
@@ -40,3 +40,4 @@
     display: none;
   }
 }
+
