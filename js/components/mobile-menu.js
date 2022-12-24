@@ -20,4 +20,7 @@ closeMenu.addEventListener('click', () => {
   }
 });
 
+openMenu.addEventListener('click', () => {
+  openMenu.style.display = 'none';
+})
   
