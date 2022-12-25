@@ -20,7 +20,10 @@ closeMenu.addEventListener('click', () => {
   }
 });
 
+var x = window.matchMedia("(max-width: 1010px)")
 openMenu.addEventListener('click', () => {
+  if(x.matches){
   openMenu.style.display = 'none';
+}
 })
   

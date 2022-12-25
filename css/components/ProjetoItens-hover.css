@@ -17,7 +17,7 @@
     font-family: 'Press Start 2p',monospace;
   }
   .item3:hover::after{
-    content: 'In-Progress';
+    content: 'MYFAVPOKE';
     display: flex;
     justify-content: center;
     color: var(--amarelo);
@@ -35,7 +35,7 @@
     font-family: 'Press Start 2p',monospace;
   }
   .item5:hover::after{
-    content: 'In-Progress';
+    content: 'NLW-Copa Calendário';
     display: flex;
     justify-content: center;
     color: var(--amarelo);
@@ -44,7 +44,7 @@
     font-family: 'Press Start 2p',monospace;
   }
   .item6:hover::after{
-    content: 'In-Progress';
+    content: 'TO-DO List';
     display: flex;
     justify-content: center;
     color: var(--amarelo);
@@ -53,7 +53,7 @@
     font-family: 'Press Start 2p',monospace;
   }
   .item7:hover::after{
-    content: 'In-Progress';
+    content: 'NLW-Copa Card';
     display: flex;
     justify-content: center;
     color: var(--amarelo);

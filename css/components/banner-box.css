@@ -8,7 +8,6 @@
 }
 
 .banner-box:hover{
-  transform: scale(1.1);
   background-color: #3A4042;
   width: 100%;
   height: 20%;
